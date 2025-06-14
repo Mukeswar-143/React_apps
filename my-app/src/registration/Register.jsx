@@ -47,6 +47,10 @@ export default function Register({ onSuccess }) {
     setMessageStatus('valid-message');
 
     onSuccess({ name, email, password }); // Pass data to App.js
+    console.log(name);
+    console.log(email);
+    console.log(password);
+    
     navigate('/login');
   };
 

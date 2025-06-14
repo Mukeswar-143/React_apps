@@ -7,7 +7,8 @@ export default function Home({ userData, onLogout }) {
 
   const handleLogout = () => {
     onLogout(); // Clear user data in App.js
-    navigate('/login'); // Redirect to login
+    navigate('/login');
+    console.log("logout"); // Redirect to login
   };
 
   return (
