@@ -161,7 +161,7 @@ public class Main {
     setResult2("");
 
     try {
-      const endpoint = `http://localhost:8080/${language}`;
+      const endpoint = `http://localhost:8083/${language}`;
 
       const response = await fetch(endpoint, {
         method: "POST",
